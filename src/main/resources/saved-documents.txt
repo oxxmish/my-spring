@@ -1,0 +1,3 @@
+{"type":"LETTER","recipient":"Maria","text":"I need a doctor","sender":"Michail"};
+{"type":"LETTER","recipient":"Maria","text":"I need a doctor","sender":"Michail"};
+{"type":"LETTER","recipient":"Maria","text":"I need a doctor","sender":"Michail"}
