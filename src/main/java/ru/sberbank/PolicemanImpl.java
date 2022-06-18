@@ -1,4 +1,6 @@
-package com.epam;
+package ru.sberbank;
+
+import ru.sberbank.spring.InjectByType;
 
 import javax.annotation.PostConstruct;
 

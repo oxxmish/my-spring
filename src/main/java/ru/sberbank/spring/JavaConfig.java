@@ -1,7 +1,8 @@
-package com.epam;
+package ru.sberbank.spring;
 
 import lombok.Getter;
 import org.reflections.Reflections;
+import ru.sberbank.spring.Config;
 
 import java.util.Map;
 import java.util.Set;

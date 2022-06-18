@@ -1,4 +1,4 @@
-package com.epam;
+package ru.sberbank.spring;
 
 /**
  * @author Evgeny Borisov

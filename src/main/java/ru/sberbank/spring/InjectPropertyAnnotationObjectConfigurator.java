@@ -1,4 +1,4 @@
-package com.epam;
+package ru.sberbank.spring;
 
 import lombok.SneakyThrows;
 
@@ -27,7 +27,7 @@ public class InjectPropertyAnnotationObjectConfigurator implements ObjectConfigu
 
     @Override
     @SneakyThrows
-    public void configure(Object t,ApplicationContext context) {
+    public void configure(Object t, ApplicationContext context) {
         Class<?> implClass = t.getClass();
         for (Field field : implClass.getDeclaredFields()) {
             InjectProperty annotation = field.getAnnotation(InjectProperty.class);

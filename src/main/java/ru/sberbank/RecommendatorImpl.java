@@ -1,4 +1,7 @@
-package com.epam;
+package ru.sberbank;
+
+import ru.sberbank.spring.InjectProperty;
+import ru.sberbank.spring.Singleton;
 
 /**
  * @author Evgeny Borisov
