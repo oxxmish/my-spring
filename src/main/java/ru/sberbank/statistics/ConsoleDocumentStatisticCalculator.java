@@ -13,9 +13,9 @@ public class ConsoleDocumentStatisticCalculator implements DocumentStatisticCalc
     }
 
     private void calcStatisticByDocType(List<? extends Document> docs) {
-        var result = docs.stream().map(Document::getDocInfo)
-                .collect(Collectors.groupingBy(DocumentInfo::getType));
-        result.forEach((key, value) ->
+        docs.stream().map(Document::getDocInfo)
+                .collect(Collectors.groupingBy(DocumentInfo::getType))
+                .forEach((key, value) ->
                 System.out.println("Тип документа : " + key.name() + " найден " + value.size() + " раз"));
     }
 }
