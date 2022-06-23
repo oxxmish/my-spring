@@ -40,7 +40,6 @@ public class ObjectFactory {
 
         invokeInit(implClass, t);
 
-
         t = wrapWithProxyIfNeeded(implClass, t);
 
 

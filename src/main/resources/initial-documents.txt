@@ -1,5 +1,7 @@
 {"type": "LETTER", "sender": "123", "recipient":"456", "message": "test"};
+{"type": "DISMISSAL_ORDER", "sender": "123", "recipient":"456", "message": "test"};
+{"type": "DISMISSAL_ORDER", "sender": "123", "recipient":"456", "message": "test"};
 {"type": "LETTER", "sender": "123", "recipient":"456", "message": "test"};
-{"type": "LETTER", "sender": "123", "recipient":"456", "message": "test"};
-{"type": "LETTER", "sender": "123", "recipient":"456", "message": "test"};
+{"type": "RECRUITMENT_ORDER", "sender": "123", "recipient":"456", "message": "test"};
+{"type": "RECRUITMENT_ORDER", "sender": "123", "recipient":"456", "message": "test"};
 {"type": "LETTER", "sender": "123", "recipient":"456", "message": "test"}

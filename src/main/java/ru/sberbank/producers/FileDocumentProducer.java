@@ -6,6 +6,7 @@ import ru.sberbank.Utils;
 import ru.sberbank.model.CommonDocument;
 import ru.sberbank.model.Document;
 import ru.sberbank.model.DocumentInfo;
+import ru.sberbank.spring.InjectProperty;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -18,8 +19,8 @@ import java.util.stream.Collectors;
 
 public class FileDocumentProducer implements DocumentProducer{
 
-//    @InjectProperty("file-path")
-    private String filePath = "C:\\Users\\Michail\\IdeaProjects\\coronadesinfectorlifedemo\\src\\main\\resources\\initial-documents.txt";
+    @InjectProperty("output-file-path")
+    private String filePath;
 
     @Override
     public List<? extends Document> getDocuments() {

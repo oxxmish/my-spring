@@ -1,3 +1,7 @@
-{"type":"LETTER","recipient":"Maria","text":"I need a doctor","sender":"Michail"};
-{"type":"LETTER","recipient":"Maria","text":"I need a doctor","sender":"Michail"};
-{"type":"LETTER","recipient":"Maria","text":"I need a doctor","sender":"Michail"}
+{"type":"LETTER","recipient":"456","message":"test","sender":"123"};
+{"type":"DISMISSAL_ORDER","recipient":"456","message":"test","sender":"123"};
+{"type":"DISMISSAL_ORDER","recipient":"456","message":"test","sender":"123"};
+{"type":"LETTER","recipient":"456","message":"test","sender":"123"};
+{"type":"RECRUITMENT_ORDER","recipient":"456","message":"test","sender":"123"};
+{"type":"RECRUITMENT_ORDER","recipient":"456","message":"test","sender":"123"};
+{"type":"LETTER","recipient":"456","message":"test","sender":"123"}

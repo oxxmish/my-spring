@@ -4,6 +4,8 @@ import lombok.SneakyThrows;
 import ru.sberbank.Utils;
 import ru.sberbank.model.Document;
 import ru.sberbank.model.DocumentInfo;
+import ru.sberbank.spring.InjectProperty;
+
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.HashMap;
@@ -13,7 +15,8 @@ import java.util.stream.Collectors;
 
 public class FileDocumentConsumer implements DocumentConsumer {
 
-    private final String outputFilePath = "C:\\Users\\Michail\\IdeaProjects\\coronadesinfectorlifedemo\\src\\main\\resources\\saved-documents.txt";
+    @InjectProperty("input-file-path")
+    private String outputFilePath;
 
     @Override
     public void saveDocuments(List<? extends Document> docs) {
